@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Council AI</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px; line-height: 1.6; color: #1c1b1f; }
+  h1 { font-size: 1.6em; } h2 { font-size: 1.2em; margin-top: 1.6em; }
+  .meta { color: #5f5e6b; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy — Council AI</h1>
+<p class="meta">Last updated: November 14, 2026 · Version 1.0.0</p>
+
+<p>Council AI ("the app") is an AI chat assistant that asks GPT, Gemini, DeepSeek, and Grok the same question and shows their answers side by side, with a "Best answer" synthesis mode. This policy explains what data the app collects, how it is used, and how you can delete it.</p>
+
+<h2>1. What the app stores on your device</h2>
+<p>Your chats, messages, projects (folders), preferences (default answer mode, default model, usage counters), and an optional email address are stored locally on your device using Android Room and DataStore. They are not uploaded to us. Saved chats remain readable offline.</p>
+
+<h2>2. What is sent when you ask a question</h2>
+<p>When you ask a question, the app sends the question text (and, if you attach one, a description of the attached photo) to the answer provider you have configured:</p>
+<ul>
+  <li><strong>Demo mode (default in version 1.0):</strong> answers are generated on-device by a labelled demo provider. Nothing leaves your device. Every demo answer is badged "Demo response" in the app.</li>
+  <li><strong>Your server:</strong> if you enter a server URL in Settings &gt; Answer provider and switch to "My server", the question is sent to that server, which you control. The server holds the AI provider keys — the app never contains an API key. Your server's own privacy practices apply to data it receives; the app does not send your chats, contacts, location, or any other data beyond the question itself and the models/mode you selected.</li>
+</ul>
+<p>The app does not send your question to Google, OpenAI, xAI, or any model provider directly.</p>
+
+<h2>3. Voice input and photos</h2>
+<p>Voice input uses Android's built-in speech recognizer; audio is processed by the system service, not by us. Photo questions use the system photo picker — the app receives only the photo you choose, and only a description of it is sent with your question (see section 2). The app requests no broad storage permission.</p>
+
+<h2>4. Purchases</h2>
+<p>Pro subscriptions ($12.99/month or $79.99/year, 14-day free trial on annual) are processed by Google Play. We do not see or store your payment details. Google Play shares only the fact that a subscription is active, so the app can unlock Pro features and enforce the higher usage caps.</p>
+
+<h2>5. What we do NOT collect</h2>
+<ul>
+  <li>No advertising identifiers, no ads, and no ad tracking.</li>
+  <li>No location data, contacts, or device identifiers beyond what Android itself requires for the app to run.</li>
+  <li>No analytics or crash data leaves the device in version 1.0. Crash reporting is local logging only; a crash-reporting service will be added before the first closed test and this policy will be updated to name it before then.</li>
+  <li>No API keys or credentials are stored in the app.</li>
+</ul>
+
+<h2>6. Data retention and deletion</h2>
+<p>Chats stay on your device until you delete them (swipe/rename/delete in the chat list) or delete your account. <strong>Settings &gt; Delete account &amp; all data</strong> permanently deletes every chat, message, project, and saved preference on the device. Deleting your account in the app does not cancel a Pro subscription — cancel that separately in Google Play. If you used your own server, data it retained is governed by that server, not by this policy.</p>
+
+<h2>7. Children</h2>
+<p>Council AI is intended for adults. It is not directed at children under 13, and we do not knowingly collect data from children.</p>
+
+<h2>8. Changes</h2>
+<p>If the app's data practices change — for example when live server answers or crash reporting are added — this policy will be updated here and the "Last updated" date changed before the change ships.</p>
+
+<h2>9. Contact</h2>
+<p>Questions about this policy: support@councilai.app</p>
+
+<p class="meta">Hosting note: this file is the privacy policy text. The live URL for the Play listing is still to be decided; do not publish this file anywhere until the URL is chosen.</p>
+</body>
+</html>
